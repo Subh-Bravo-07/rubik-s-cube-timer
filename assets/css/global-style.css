@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+    /* font-family: Poppins-Bold ;
+    src: url(./fonts/Poppins-Bold.ttf); */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{    
+    background-color: #04385d;
+    color: #ccc6b8;
+}
