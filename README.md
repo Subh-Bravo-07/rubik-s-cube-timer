@@ -3,28 +3,38 @@
 A web-based WCA-style cube timer and scramble generator. Choose your puzzle size, generate random scrambles, time your solves (with splits, penalties, and DNFs), track statistics (best, worst, average, Ao5, Ao12), and export your session history in TXT, CSV, or JSON formats.
 
 ---
+## 🚀 Key Features
 
-## 🚀 Features
+- **Multi-Puzzle Support**  
+  Choose between 2×2, 3×3, 4×4 and 5×5 with official WCA-length scrambles (9, 20, 40, 60 moves).
 
-- **Puzzle Selection**  
-  2×2, 3×3, 4×4, and 5×5 support with WCA-correct scramble lengths (9, 20, 40, 60 moves).
-- **Real-Time Timer**  
-  Highly precise timer (milliseconds) with Space-bar start/stop.
-- **Splits & Penalties**  
-  Record intermediate splits, add +2 s penalties, or mark DNF.
-- **Session Statistics**  
-  Displays total solves, best, worst, overall average, Ao5, and Ao12.
-- **Persistent History**  
-  Solve data is stored in `localStorage` and rendered as a log.
-- **Export Options**  
-  Download your solves as:
-  - `.txt`
-  - `.csv`
-  - `.json`
-- **Light / Dark Mode**  
-  Toggle between themes for day or night use.
-- **Responsive & Neumorphic Design**  
-  Modern “claymorphic” UI that adapts to mobile and desktop.
+- **Precision Timer**  
+  Stopwatch accurate to the millisecond, start/stop via button or Space-bar.
+
+- **Splits, Penalties & DNF**  
+  • Record intermediate split times  
+  • Instantly apply +2s penalty  
+  • Mark solves as DNF when needed
+
+- **Comprehensive Statistics**  
+  • Total solves count  
+  • Best, worst and average times  
+  • Rolling averages (Ao5, Ao12)
+
+- **Persistent Solve Log**  
+  All solves saved in browser storage—view full history any time.
+
+- **One-Click Exports**  
+  Download your session in three formats:  
+  • Plain text (`.txt`)  
+  • Comma-separated values (`.csv`)  
+  • Structured JSON (`.json`)
+
+- **Light & Dark Themes**  
+  Switch between modes for optimal visibility, day or night.
+
+- **Responsive Claymorphic UI**  
+  Clean “neumorphic” design that looks and works great on desktop and mobile.
 
 ---
 
