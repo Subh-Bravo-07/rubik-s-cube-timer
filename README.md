@@ -129,6 +129,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 Built by [Subh-Bravo-07](https://github.com/Subh-Bravo-07). Feel free to open issues or submit pull requests!
-
-```
-```
