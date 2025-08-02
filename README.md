@@ -34,7 +34,7 @@ A web-based WCA-style cube timer and scramble generator. Choose your puzzle size
   Switch between modes for optimal visibility, day or night.
 
 - **Responsive Claymorphic UI**  
-  Clean “neumorphic” design that looks and works great on desktop and mobile.
+  Clean “claymorphic” design that looks and works great on desktop and mobile.
 
 ---
 
