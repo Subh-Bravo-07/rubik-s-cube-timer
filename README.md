@@ -56,7 +56,7 @@ A web-based WCA-style cube timer and scramble generator. Choose your puzzle size
 
 1. **Clone the repository**  
 ```
-   git clone https://github.com/<your-username>/rubiks-cube-timer.git
+   git clone https://github.com/Subh-Bravo-07/rubiks-cube-timer.git
    cd rubiks-cube-timer
 ````
 
