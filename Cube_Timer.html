@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WCA Cube Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar clay">
+    <div class="nav-group">
+      <select id="puzzleType">
+        <option value="2x2">2×2 (9 moves)</option>
+        <option value="3x3" selected>3×3 (20 moves)</option>
+        <option value="4x4">4×4 (40 moves)</option>
+        <option value="5x5">5×5 (60 moves)</option>
+      </select>
+    </div>
+    <div class="nav-group">
+      <button id="themeToggle">Dark Mode</button>
+      <button id="downloadTxt">Export .TXT</button>
+      <button id="downloadCsv">Export .CSV</button>
+      <button id="downloadJson">Export .JSON</button>
+    </div>
+  </nav>
+
+  <div class="clock clay">
+    <div id="time" class="time">00:00:00.000</div>
+  </div>
+
+  <div id="scramble" class="clay">
+    Loading scramble…
+  </div>
+
+  <div class="controls">
+    <button id="startBtn">Start</button>
+    <button id="stopBtn" disabled>Stop</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <div class="extras">
+    <button id="splitBtn" disabled>Split</button>
+    <button id="penaltyBtn" disabled>+2 s</button>
+    <button id="dnfBtn" disabled>DNF</button>
+    <button id="clearBtn">Clear History</button>
+  </div>
+
+  <div id="stats" class="clay"></div>
+  <div id="log" class="clay"></div>
+  <script src="script.js"></script> 
+</body>
+</html>
